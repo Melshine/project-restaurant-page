@@ -29,7 +29,6 @@ button:hover{
 }
 
 #content{
-    width:50%;
-    min-width:600px;
+    width:clamp(400px, 50%, 900px);
     margin:auto;
 }

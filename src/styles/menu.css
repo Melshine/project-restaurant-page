@@ -1,5 +1,5 @@
-#menu{
-    columns: 300px auto;
+.menu{
+    columns: 100% auto;
 }
 
 span {
