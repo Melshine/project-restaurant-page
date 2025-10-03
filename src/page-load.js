@@ -1,4 +1,5 @@
 import burgerImg from "./images/burger.jpg";
+import './styles/pageLoad.css'
 
 export default function createHome(){
     const content = document.querySelector('#content');

@@ -1,0 +1,43 @@
+#menu{
+    columns: 300px auto;
+}
+
+span {
+    position: absolute;
+    top:0px;
+    right:0;
+}
+
+ul,
+li {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+ul {
+    columns: 300px 2;
+    border: 10px solid gray;
+    padding: 20px;
+}
+
+li {
+    position: relative;
+    break-inside: avoid; /* #LEARN */
+}
+
+h2, h3{
+    text-transform: capitalize;
+}
+
+p{
+    font-style: italic;
+    margin:0;
+    padding:10px;
+    font-size:16px;
+}
+
+h3 {
+    margin-bottom: 5px;
+    margin-top:0;
+}

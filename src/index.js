@@ -1,7 +1,7 @@
 import createHome from "./page-load.js"
 import {createMenu} from "./menu.js"
 import createAbout from './about.js'
-console.log("Restaurant page")
+import './styles/header.css'
 
 const content = document.querySelector('#content')
 
@@ -11,7 +11,7 @@ const aboutButton = document.querySelector('button#about')
 
 Array.from(document.querySelectorAll('button')).forEach(button=>{
     button.addEventListener('click', event =>{
-    content.innerHTML = '' // empty the element
+    content.innerHTML = '' // #LEARN empty the element
     })
 })
 

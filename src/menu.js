@@ -1,3 +1,5 @@
+import "./styles/menu.css"
+
 const menu = [
     {
         name: 'classic',
@@ -129,6 +131,7 @@ export function createMenu(){
     h1.textContent = 'Discover our menu'
 
     const menuDiv = document.createElement('div')
+    menuDiv.classList.add('menu')
 
     menu.forEach(category => {
         const h2 = document.createElement('h2');
